@@ -1,10 +1,6 @@
 {
-    parser: 'babel-eslint',
-    extends: [
-        'onelint',
-        'onelint-react'
-    ],
-    rules: {
-        'prefer-const': 'error'
+    "extends": ["onelint", "onelint-react"],
+    "rules": {
+        "prefer-const": "error"
     }
 }

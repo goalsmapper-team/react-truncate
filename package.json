@@ -1,6 +1,6 @@
 {
   "name": "react-truncate",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "React component for truncating multi-line spans and adding an ellipsis",
   "main": "lib/Truncate.CommonJS.js",
   "module": "lib/Truncate.js",
@@ -44,7 +44,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "canvas": "^1.6.13",
+    "canvas": "^2.5.0",
     "common-tags": "^1.8.0",
     "coveralls": "^3.1.0",
     "cross-env": "^5.2.0",
