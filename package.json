@@ -2,10 +2,10 @@
   "name": "react-truncate",
   "version": "2.4.1",
   "description": "React component for truncating multi-line spans and adding an ellipsis",
-  "main": "src/Truncate.js",
-  "module": "src/Truncate.js",
+  "main": "lib/Truncate.CommonJS.js",
+  "module": "lib/Truncate.js",
   "files": [
-    "src"
+    "lib"
   ],
   "scripts": {
     "compile": "shx mkdir -p lib && babel ./src --out-file ./lib/Truncate.js && cross-env BABEL_ENV=CommonJS babel ./src --out-file ./lib/Truncate.CommonJS.js",
